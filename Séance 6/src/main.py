@@ -23,8 +23,8 @@ print(Fichier.head())
 # Sélection des colonnes "PIB_2022" et "Utilisation_d_energie_2022"
 PIB_2022 = list(Fichier["PIB_2022"])
 Energie_2022 = list(Fichier["Utilisation_d_energie_2022"])
-print(PIB_2022)
-print(Energie_2022)
+print(PIB_2022[:5])
+print(Energie_2022[:5])
 
 # Question 2
 print("Question 2")
